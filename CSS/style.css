@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Estilos base do documento */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: brown;
+    background-color: #f8fafc;
+}
+
+/* 3. Cabeçalho */
+header {
+    background-color: #57371df6;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.85;
+}
+
+/* 4. Navegação */
+nav {
+    
+    display: box;
+    gap: 4px;
+    padding: 8px 16px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background .2s;
+}
+
+nav a:hover {
+    background: rgba(196, 166, 166, 0.15);
+}
+
+/* 5. Conteúdo principal */
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    /* centraliza */
+    padding: 20px 20px;
+}
+
+section {
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #c79202;
+    border-left: 4px solid #06330a;
+    padding-left: 12px;
+    margin-bottom: 12px;
+}
+button {
+    color: #194109;
+    background: rgba(245, 238, 238, 0.15);
+    text-decoration: none;
+    font-weight: 800;
+    
+}
+li {
+    margin-bottom: 2px;
+    padding-left: 30px;
+    list-style-position: inside;
+    
+    
+}
